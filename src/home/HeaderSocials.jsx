@@ -1,4 +1,6 @@
 import React from 'react'
+import { SiCodeforces } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 
 const HeaderSocials = () => {
   return (
@@ -8,13 +10,13 @@ const HeaderSocials = () => {
           <i class="fa-brands fa-linkedin"></i>
         </a>
         <a href="/" className="home__social-link" target='_blank'>
-          <i class="fa-brands fa-x-twitter"></i>
+          <SiLeetcode />
         </a>
         <a href="/" className="home__social-link" target='_blank'>
           <i class="fa-brands fa-github"></i>
         </a>
         <a href="/" className="home__social-link" target='_blank'>
-          <i class="fa-brands fa-instagram"></i>
+          <SiCodeforces />
         </a>
       </div>
 
