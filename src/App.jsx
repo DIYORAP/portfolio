@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Sidebar from './sidebar/sidebar'
 import Home from "./home/Home"
+import About from "./about/About"
 function App() {
   return (
     <>
@@ -30,6 +31,8 @@ function App() {
       <Sidebar />
       <main className='main'>
         <Home />
+        <About />
+
       </main>
     </>
   )

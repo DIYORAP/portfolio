@@ -1,15 +1,12 @@
 import React from "react";
 import "./about.css";
-
 import IconCloud from "../magicui/icon-cloud";
 
 const About = () => {
   const slugs = [
     "typescript",
     "javascript",
-
     "react",
-
     "html5",
     "css3",
     "nodedotjs",
@@ -22,15 +19,12 @@ const About = () => {
     "nginx",
     "vercel",
     "testinglibrary",
-
     "docker",
     "git",
-
     "github",
     "gitlab",
     "visualstudiocode",
     "androidstudio",
-
     "figma",
   ];
   return (
@@ -40,7 +34,7 @@ const About = () => {
       <div className="about__data grid">
         <div className="about__info">
           <p className="about__description">
-            Greetings!
+            Hello!
             <br />
             I'm Parthik Diyora & I'm a Fullstack developer with a passion for creating
             modern and efficient digital solutions. With expertise in
