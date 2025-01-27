@@ -2,7 +2,6 @@ import React from 'react'
 import "./home.css";
 import HeaderSocials from './HeaderSocials';
 import Scrolldown from './Scrolldown';
-import Shapes from './Shapes';
 import { Typewriter } from 'react-simple-typewriter'
 const Home = () => {
 
@@ -37,7 +36,7 @@ const Home = () => {
           </a>
           <Scrolldown />
         </div>
-        <Shapes />
+
       </section>
     </>
   )
