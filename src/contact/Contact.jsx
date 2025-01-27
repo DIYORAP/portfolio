@@ -29,10 +29,10 @@ const Contact = () => {
     if (formIsValid) {
       try {
         const result = await emailjs.sendForm(
-          "service_wyqt0zi",
-          "template_5ng00mu",
+          "service_0rrw7gr",
+          "template_t9ew8kq",
           form.current,
-          "Bv9GqaewcLyz6ipOE"
+          "rLuVAL8cLFb6SDryz"
         );
         console.log(result.text);
         // Show success toast

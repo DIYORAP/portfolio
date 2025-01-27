@@ -6,6 +6,7 @@ import About from "./about/About"
 import Services from "./services/Services"
 //import Portfolio from "./portfolio/Portfolio"
 import Resume from "./resume/Resume"
+import Connect from './contact/Contact'
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Services />
         {/* <Portfolio /> */}
         <Resume />
+        <Connect />
 
       </main>
     </>
