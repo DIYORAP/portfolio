@@ -16,7 +16,7 @@ const Home = () => {
             <span style={{ color: 'hsl(353, 100%, 65%)', fontWeight: 'bold' }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
-                words={['FullStack Developer', ' DevOps Engineer ']}
+                words={['FullStack Developer', 'MERN Stack Developer', "next.js Developer"]}
                 loop={Infinity}
                 cursor
                 cursorStyle='|'
