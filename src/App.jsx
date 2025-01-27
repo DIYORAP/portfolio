@@ -3,6 +3,11 @@ import { Helmet } from 'react-helmet'
 import Sidebar from './sidebar/sidebar'
 import Home from "./home/Home"
 import About from "./about/About"
+import Services from "./services/Services"
+//import Portfolio from "./portfolio/Portfolio"
+import Resume from "./resume/Resume"
+
+
 function App() {
   return (
     <>
@@ -32,6 +37,9 @@ function App() {
       <main className='main'>
         <Home />
         <About />
+        <Services />
+        {/* <Portfolio /> */}
+        <Resume />
 
       </main>
     </>

@@ -1,26 +1,29 @@
 import React from 'react'
 import "./services.css";
-// this place can add photo of services
+import Image1 from "../assets/service-1.svg";
+import Image2 from "../assets/service-2.svg";
+import Image3 from "../assets/service-3.svg";
+
 const data = [
   {
     id: 1,
     image: Image1,
     title: "Web Development",
     description:
-      "Designing immersive interfaces for optimal user engagement and satisfaction.",
+      "Developing dynamic websites with precision, innovation, and a focus on success.",
   },
   {
     id: 2,
     image: Image2,
     title: " DevOps engineer ",
     description:
-      "Developing dynamic websites with precision, innovation, and a focus on success.",
+      "Crafting dynamic, scalable websites with innovation, precision, and a success-driven approach.",
   },
   {
     "id": 3,
     "image": Image3,
     "title": "Development",
-    "description": "Implementing strategic SEO techniques to enhance your website's visibility and search engine rankings."
+    "description": "Developing dynamic websites with precision, innovation, and a focus on success."
   }
 
 ];
