@@ -15,7 +15,7 @@ const HeaderSocials = () => {
         <a href="https://github.com/DIYORAP" className="home__social-link" target='_blank'>
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="/https://codeforces.com/profile/parthik_1000" className="home__social-link" target='_blank'>
+        <a href="https://codeforces.com/profile/parthik_1000" className="home__social-link" target='_blank'>
           <SiCodeforces />
         </a>
       </div>
