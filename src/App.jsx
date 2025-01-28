@@ -21,7 +21,7 @@ function App() {
             {
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Arihant Jain",
+              "name": "parthik diyora",
               "url": "https://",
               "sameAs": [
                 "",
