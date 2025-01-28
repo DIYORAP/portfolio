@@ -61,28 +61,28 @@ const Contact = () => {
           <h3 className="contact_title">Let's talk about everything!</h3>
           <p className="contact__details">Reply get in 24 hours</p>
           <a
-            href="/"
+            href="https://linkedin.com/in/parthikdiyora10"
             className="home__social-link"
             target="_blank"
           >
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="/"
+            href="https://leetcode.com/u/parthik1000/"
             className="home__social-link"
             target="_blank"
           >
             <i className="fa-brands fa-x-twitter"></i>
           </a>
           <a
-            href="/"
+            href="https://github.com/DIYORAP/"
             className="home__social-link"
             target="_blank"
           >
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="/"
+            href="https://codeforces.com/profile/parthik_1000/"
             className="home__social-link"
             target="_blank"
           >
