@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Parthik Web Development Portfolio</title>
+        <title>Yash</title>
         <meta name="description" content="I am a MERN stack developer dedicated to creating impactful web applications. Explore my portfolio and projects." />
         <meta name="keywords" content="Arihant, web development, MERN stack, portfolio, projects, React, Node.js, MongoDB, Express" />
         <script type="application/ld+json">
@@ -21,15 +21,15 @@ function App() {
             {
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "parthik diyora",
+              "name": "Yash Thummer",
               "url": "https://",
               "sameAs": [
                 "",
                 "",
                  ""
               ],
-              "jobTitle": "Fullstack Developer",
-              "description": "Parthik is a MERN stack developer dedicated to creating impactful web applications. Explore my portfolio and projects."
+              "jobTitle": "",
+              "description": "Yash Thummer is a Chemical Student dedicated to creating impactful web applications. Explore my portfolio and projects."
             }
           `}
         </script>
@@ -38,9 +38,8 @@ function App() {
       <main className='main'>
         <Home />
         <About />
-        <Services />
         {/* <Portfolio /> */}
-        <Resume />
+        {/* <Resume /> */}
         <Connect />
 
       </main>

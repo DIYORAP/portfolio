@@ -8,14 +8,24 @@ const Home = () => {
   return (
     <>
       <section className='home container' id='home'>
-        <div className="intro">
-          <h1 className='home__name'>Parthik Diyora</h1>
+        <div className="intro" style={{ textAlign: 'center' }}>
+          <img
+            src="/public/IMG 35678.jpg"
+            alt="Yash Thummar"
+            style={{
+              width: '150px',
+              height: '150px',
+              borderRadius: '50%',
+              marginBottom: '20px',
+              objectFit: 'cover',
+            }}
+          />
+          <h1 className='home__name'>Yash Thummar</h1>
           <span className='home__education'><h1 style={{ margin: 'auto 0', fontWeight: 'normal' }}>
             I'm {' '}
             <span style={{ color: 'hsl(353, 100%, 65%)', fontWeight: 'bold' }}>
-              {/* Style will be inherited from the parent element */}
               <Typewriter
-                words={['FullStack Developer', 'MERN Stack Developer', "next.js Developer"]}
+                words={['Chemical Student']}
                 loop={Infinity}
                 cursor
                 cursorStyle='|'

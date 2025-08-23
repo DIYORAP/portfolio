@@ -61,32 +61,11 @@ const Contact = () => {
           <h3 className="contact_title">Let's talk about everything!</h3>
           <p className="contact__details">Reply get in 24 hours</p>
           <a
-            href="https://linkedin.com/in/parthikdiyora10"
+            href="https://linkedin.com/in/yash-thummar-932170257"
             className="home__social-link"
             target="_blank"
           >
             <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="https://leetcode.com/u/parthik1000/"
-            className="home__social-link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-x-twitter"></i>
-          </a>
-          <a
-            href="https://github.com/DIYORAP/"
-            className="home__social-link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
-          <a
-            href="https://codeforces.com/profile/parthik_1000/"
-            className="home__social-link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
         <form ref={form} onSubmit={sendEmail} className="contact__form">
