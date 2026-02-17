@@ -35,18 +35,7 @@ const Sidebar = () => {
                             <li className="nav__item">
                                 <a href="#about" className="nav__link"><FaUser /></a>
                             </li>
-                            <li className="nav__item">
-                                <a href="#services" className="nav__link"><FaBriefcase /></a>
-                            </li>
-                            <li className="nav__item">
-                                <a href="#resume" className="nav__link"><FaGraduationCap /></a>
-                            </li>
-                            <li className="nav__item">
-                                <a href="#portfolio" className="nav__link"><FaLayerGroup /></a>
-                            </li>
-                            <li className="nav__item">
-                                <a href="#blog" className="nav__link"><FaStickyNote /></a>
-                            </li>
+
                             <li className="nav__item">
                                 <a href="#contact" className="nav__link"><FaComment /></a>
                             </li>
@@ -55,7 +44,7 @@ const Sidebar = () => {
                 </nav>
 
                 <div className="nav__footer">
-                    <span className="copyright">&copy; 2025 All rights reserved</span>
+                    <span className="copyright">&copy; 2026 All rights reserved</span>
                 </div>
             </aside>
 

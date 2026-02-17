@@ -3,7 +3,6 @@ import "./home.css";
 import HeaderSocials from './HeaderSocials';
 import Scrolldown from './Scrolldown';
 import { Typewriter } from 'react-simple-typewriter'
-import yash from '../../public/yash.jpg'
 const Home = () => {
 
   return (
@@ -11,7 +10,7 @@ const Home = () => {
       <section className='home container' id='home'>
         <div className="intro" style={{ textAlign: 'center' }}>
           <img
-            src={yash}
+            src="/image.png"
             alt="Yash Thummar"
             style={{
               width: '150px',

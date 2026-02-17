@@ -58,15 +58,29 @@ const Contact = () => {
       <h2 className="section__title">Get In Touch</h2>
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact_title">Let's talk about everything!</h3>
-          <p className="contact__details">Reply get in 24 hours</p>
-          <a
-            href="https://linkedin.com/in/yash-thummar-932170257"
-            className="home__social-link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
+          <h3 className="contact_title">Let's connect!</h3>
+          <p className="contact__details">
+            Contact me at{" "}
+            <a href="mailto:yp93133@gmail.com">yp93133@gmail.com</a> &mdash; replies within 24 hours.
+          </p>
+          <div className="contact__socials">
+            <a
+              href="https://wa.me/919313352905"
+              className="home__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/yash-thummar-932170257"
+              className="home__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
         <form ref={form} onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-group">
