@@ -3,9 +3,6 @@ import { Helmet } from 'react-helmet'
 import Sidebar from './sidebar/sidebar'
 import Home from "./home/Home"
 import About from "./about/About"
-import Services from "./services/Services"
-//import Portfolio from "./portfolio/Portfolio"
-import Resume from "./resume/Resume"
 import Connect from './contact/Contact'
 
 
@@ -38,8 +35,6 @@ function App() {
       <main className='main'>
         <Home />
         <About />
-        {/* <Portfolio /> */}
-        {/* <Resume /> */}
         <Connect />
 
       </main>

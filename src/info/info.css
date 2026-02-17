@@ -1,0 +1,36 @@
+.info {
+  padding-top: 6rem;
+}
+
+.info__content {
+  display: grid;
+  gap: 2rem;
+}
+
+.info__block {
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.info__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.info__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info__item {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.info__item strong {
+  color: var(--first-color);
+}
+

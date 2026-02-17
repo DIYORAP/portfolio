@@ -61,7 +61,10 @@ const Contact = () => {
           <h3 className="contact_title">Let's connect!</h3>
           <p className="contact__details">
             Contact me at{" "}
-            <a href="mailto:yp93133@gmail.com">yp93133@gmail.com</a> &mdash; replies within 24 hours.
+            <a href="mailto:yp93133@gmail.com" style={{ color: "red" }}>
+              yp93133@gmail.com
+            </a>{" "}
+            &mdash; replies within 24 hours.
           </p>
           <div className="contact__socials">
             <a

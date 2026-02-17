@@ -12,11 +12,31 @@ const About = () => {
           Fascinated by the art of molecular architecture, I am an aspiring Organic Chemist completing my Master's degree from the Department of Chemistry at Gujarat University. My academic journey, which began with a solid foundation in chemistry at R. G. Shah Science College, has culminated in a deep specialization in organic synthesis, stereochemistry, and the spectroscopic elucidation of complex molecules.
           <br />
           <br />
+          <h3>Skills</h3>
+          <ul>
+            <li>Organic Synthesis</li>
+            <li>Laboratory Techniques</li>
+            <li>Analytical Techniques</li>
+            <li>Computational / Software</li>
+          </ul>
+          <br />
           My core skills include organic synthesis (reaction mechanism understanding, multistep synthesis, and purification methods), key laboratory techniques such as recrystallization, distillation, extraction, and TLC, and basic experience with analytical techniques including UV-Vis, IR, NMR, and mass spectrometry. I am also comfortable using MS Office tools like Word, Excel, and PowerPoint for documentation, data analysis, and presentations.
           <br />
           <br />
+          <h3>Strengths</h3>
+          <ul>
+            <li>Analytical thinking and problem-solving.</li>
+            <li>Attention to detail and accuracy in experiments.</li>
+            <li>Quick learner and adaptable.</li>
+            <li>Good communication skills.</li>
+            <li>Time management.</li>
+            <li>Hard work.</li>
+            <li>Discipline.</li>
+          </ul>
+          <br />
           I bring strong analytical thinking and problem-solving, attention to detail and accuracy in experiments, and I am a quick learner who adapts easily to new environments. I value good communication, time management, hard work, and discipline in both academic and professional settings.
           <br />
+
           <br />
           I am actively seeking opportunities in the pharmaceutical, agrochemical, or fine chemical sectors where I can leverage my skills in synthesis and analysis to contribute to a dynamic R&amp;D, Process Development, or Quality Assurance team. Let's connect to discuss how my passion for chemistry can be an asset to your organization.
         </p>
