@@ -41,7 +41,7 @@ const About = () => {
           I am actively seeking opportunities in the pharmaceutical, agrochemical, or fine chemical sectors where I can leverage my skills in synthesis and analysis to contribute to a dynamic R&amp;D, Process Development, or Quality Assurance team. Let's connect to discuss how my passion for chemistry can be an asset to your organization.
         </p>
         <a
-          href="/DOC-20260104-WA0000..pdf"
+          href="/Resume_Thummar_Yash_.pdf"
           className="btn"
           target="_blank"
           rel="noopener noreferrer"

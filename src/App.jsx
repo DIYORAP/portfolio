@@ -4,11 +4,15 @@ import Sidebar from './sidebar/sidebar'
 import Home from "./home/Home"
 import About from "./about/About"
 import Connect from './contact/Contact'
-
+import ParticlesBackground from './home/ParticlesBackground'
+import './App.css'
 
 function App() {
   return (
     <>
+      <div className="particles-page-wrapper">
+        <ParticlesBackground />
+      </div>
       <Helmet>
         <title>Yash</title>
         <meta name="description" content="I am a MERN stack developer dedicated to creating impactful web applications. Explore my portfolio and projects." />

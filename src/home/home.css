@@ -12,11 +12,28 @@
   text-align: center;
   z-index: 1;
 }
-.home__img {
-  margin-bottom: 0.5rem;
-  height: 160px;
-  border-radius: 100%;
 
+.home__img-wrapper {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 1.25rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-theme .home__img-wrapper {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.home__profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
 }
 .home__name {
   font-size: var(--h1-font-size);

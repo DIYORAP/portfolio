@@ -3,23 +3,19 @@ import "./home.css";
 import HeaderSocials from './HeaderSocials';
 import Scrolldown from './Scrolldown';
 import { Typewriter } from 'react-simple-typewriter'
-const Home = () => {
 
+const Home = () => {
   return (
     <>
       <section className='home container' id='home'>
         <div className="intro" style={{ textAlign: 'center' }}>
-          <img
-            src="/image.png"
-            alt="Yash Thummar"
-            style={{
-              width: '150px',
-              height: '150px',
-              borderRadius: '50%',
-              marginBottom: '20px',
-              objectFit: 'cover',
-            }}
-          />
+          <div className="home__img-wrapper">
+            <img
+              src="/image.png"
+              alt="Yash Thummar"
+              className="home__profile-img"
+            />
+          </div>
           <h1 className='home__name'>Yash Thummar</h1>
           <span className='home__education'><h1 style={{ margin: 'auto 0', fontWeight: 'normal' }}>
             I'm {' '}

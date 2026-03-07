@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+.particles-page-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.particles-page-wrapper .particles-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Let hover pass through to particles; interactive elements stay clickable */
+.main {
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.main a,
+.main button,
+.main input,
+.main textarea,
+.main .home__social-link {
+  pointer-events: auto;
+}
